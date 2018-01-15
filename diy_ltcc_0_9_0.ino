@@ -1,6 +1,11 @@
 /*
 
-
+	this code is to be considered experimental and is provided "as is", without warranty of any kind, 
+	express or implied, including but not limited to fitness for a particular purpose.
+	if your LT1 comes apart using it i will not be held responsible
+	you were warned
+	
+	this code is licensed under GNU General Public Licencse v3 - please see file: LICENSE in repository
 
 */
 #define VERSION "0.9.0"
