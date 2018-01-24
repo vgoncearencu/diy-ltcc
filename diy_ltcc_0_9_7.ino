@@ -339,7 +339,7 @@ volatile boolean logFlag;               // flag to prompt log data output and vo
 typedef struct {
   int cylNo;          // user readable cylinder no
   int armed;          // set to 1 = armed for dwell, set to 0 = est signal caught - prevents dwell routine from dwelling recently fired coil
-  volatile uint8_t *portAddr;  // used at a pointer to the output registers so coil drivers can be controlled directly (faster than using digital[write/read]() arduino functions)
+  volatile uint8_t *portAddr;  // used as a pointer to the output registers so coil drivers can be controlled directly (faster than using digital[write/read]() arduino functions)
   byte bitMask;       // the bit mask of each output pin - see the atmega datasheet for more info on this and timers
 } cylinders;
 
