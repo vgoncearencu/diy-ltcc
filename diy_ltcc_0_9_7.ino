@@ -891,7 +891,7 @@ void loop() {
   #endif
 
 
-  // output logging data and request adc conversion periodically - triggered by timer2 (TODO: verify this timer #!!!)
+  // output logging data and request adc conversion periodically - triggered by timer2
   if (logFlag) {
 
     // ign voltage detection
